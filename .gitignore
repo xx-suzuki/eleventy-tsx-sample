@@ -1,0 +1,19 @@
+# System files
+logs
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Dependency directories
+node_modules/
+!package-lock.json
+
+# dotenv environment
+.env
+
+# Project outputs
+dist/
+
+# Cache
+.cache
