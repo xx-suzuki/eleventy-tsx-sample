@@ -1,0 +1,22 @@
+{
+  "name": "eleventy-tsx-sample",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": "^20"
+  },
+  "scripts": {
+    "postinstall": "patch-package",
+    "dev": "tsx node_modules/@11ty/eleventy/cmd.cjs --config=eleventy.config.ts --serve --incremental",
+    "build": "tsx node_modules/@11ty/eleventy/cmd.cjs --config=eleventy.config.ts"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.18",
+    "@types/react-dom": "^18.3.0",
+    "patch-package": "^8.0.0",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "private": true
+}
