@@ -11,7 +11,7 @@
     "build": "tsx node_modules/@11ty/eleventy/cmd.cjs --config=eleventy.config.ts"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0-alpha.18",
+    "@11ty/eleventy": "^3.0.0-beta.1",
     "@types/react-dom": "^18.3.0",
     "patch-package": "^8.0.0",
     "react-dom": "^18.3.1",
